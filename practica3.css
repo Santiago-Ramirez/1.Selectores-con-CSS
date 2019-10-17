@@ -1,0 +1,14 @@
+.cuadro{
+  height: 90px;
+width: 90px;
+border: 10px solid blue;
+display: inline-block;
+margin-left: 30px;
+}
+
+
+/*Selector de hijos donde label es el hijo y div es el padre*/
+label > div
+{
+  background-color: red;
+}
